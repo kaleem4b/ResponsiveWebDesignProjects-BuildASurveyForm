@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* ////////////// */
+
+input,
+textarea {
+  outline: none;
+}
+
+.main-container {
+  max-width: 80vw;
+  height: auto;
+  padding: 100px 50px;
+  margin: 100px auto;
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  padding-bottom: 50px;
+}
+
+.heading-section {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  text-align: center;
+}
+
+#title {
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+#survey-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.survey-styles {
+  width: 100%;
+  /* background-color: blue; */
+}
+
+.survey-styles input {
+  width: 100%;
+  margin-top: 10px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 0.95rem;
+  color: rgb(75, 75, 75);
+}
+
+.survey-styles p {
+  font-size: 1.1rem;
+}
+
+#dropdown-message {
+  font-size: 1.1rem;
+  /* color: red; */
+}
+
+#dropdown {
+  margin-top: 15px;
+  padding-left: 10px;
+  width: 100%;
+  height: 40px;
+}
+
+.middle-line {
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  margin: 50px 0;
+}
+
+.survey-radio p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.survey-radio input {
+  margin-bottom: 15px;
+}
+
+.survey-checkbox p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.survey-comments p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.survey-comments textarea {
+  resize: none;
+  width: 100%;
+  height: 200px;
+  padding-left: 10px;
+  padding-top: 15px;
+  font-size: 0.95rem;
+  color: rgb(75, 75, 75);
+}
+
+
+.survery-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    /* background-color: blue; */
+}
+
+.survery-buttons button {
+    padding: 8px 0;
+    width: 200px;
+    cursor: pointer;
+    border: none;
+}
+
+.survery-buttons button:nth-child(1) {
+    background-color: rgb(52, 207, 52);
+    color: white;
+}
+
+.survery-buttons button:nth-child(2) {
+    background-color: red;
+    color: white;
+}
+
+
+.author {
+    width: 100%;
+}
+
+.author p {
+    text-align: right;
+}

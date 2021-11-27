@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Build a Survey Form</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="heading-section">
+        <!-- User Story #1 -->
+        <h1 id="title">Building a Survey Form</h1>
+        <!-- User Story #2 -->
+        <p id="description">
+          This is my attempt on completing all the challenges and projects in
+          Freecodecamp
+        </p>
+      </div>
+
+      <!-- ////////////////// -->
+
+      <!-- User Story #3 -->
+      <form id="survey-form">
+        <div class="survey-styles survey-name">
+          <p>Name</p>
+          <!-- User Story #4 -->
+          <!-- User Story #10 -->
+          <!-- User Story #11 -->
+          <input id="name name-label" type="text" placeholder="Name..." />
+        </div>
+        <div class="survey-styles survey-email">
+          <p>Email</p>
+          <!-- User Story #5 -->
+          <!-- User Story #6 -->
+          <!-- User Story #10 -->
+          <!-- User Story #11 -->
+          <input
+            id="email email-label"
+            type="email"
+            placeholder="example@gmail.com"
+          />
+        </div>
+        <div class="survey-styles survey-number">
+          <p>Number</p>
+          <!-- User Story #7 -->
+          <!-- User Story #8 -->
+          <!-- User Story #9 -->
+          <!-- User Story #10 -->
+          <!-- User Story #11 -->
+          <input
+            id="number number-label"
+            type="number"
+            min="0"
+            max="100"
+            placeholder="0 - 100"
+          />
+        </div>
+
+        <!-- ////////////////// -->
+
+        <div class="survey-dropdown">
+          <label for="school-qna" id="dropdown-message"
+            >Do you like your school</label
+          >
+          <br />
+          <!-- User Story #12 -->
+          <select name="school-qna" id="dropdown">
+            <option value="No comments">No comments</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+            <option value="I hate it so much..">I hate it so much..</option>
+            <option value="I like it partially">I like it partially</option>
+          </select>
+        </div>
+
+        <hr class="middle-line" />
+
+        <!-- ////////////////// -->
+
+        <div class="survey-radio">
+          <!-- User Story #13 -->
+          <p>Please select your favorite Web language:</p>
+           
+          <input
+            type="radio"
+            id="html"
+            name="fav_language"
+            value="HTML"
+            checked
+          />
+            <label for="html">HTML</label><br />
+            <input type="radio" id="css" name="fav_language" value="CSS" />  
+          <label for="css">CSS</label><br />
+           
+          <input
+            type="radio"
+            id="javascript"
+            name="fav_language"
+            value="JavaScript"
+          />
+            <label for="javascript">JavaScript</label>
+        </div>
+
+        <!-- ///////// -->
+
+        <div class="survey-checkbox">
+          <p>What are you interested in ?</p>
+          <label class="checbox"
+            >Programming
+            <input type="checkbox" checked="checked" value="programming" />
+            <span class="checkmark"></span>
+          </label>
+          <br />
+          <br />
+          <label class="checbox"
+            >Designing
+            <input type="checkbox" value="designing" />
+            <span class="checkmark"></span>
+          </label>
+          <br />
+          <br />
+          <label class="checbox"
+            >Logic Building
+            <input type="checkbox" value="logic-building" />
+            <span class="checkmark"></span>
+          </label>
+          <br />
+          <br />
+          <label class="checbox"
+            >Teaching
+            <input type="checkbox" value="teaching" />
+            <span class="checkmark"></span>
+          </label>
+          <br />
+          <br />
+        </div>
+
+        <!-- ////////////////////// -->
+
+        <div class="survey-comments">
+          <p>Comments</p>
+          <textarea name="comments"></textarea>
+        </div>
+
+        <div class="survery-buttons">
+          <button id="submit">Submit</button>
+          <button id="reset">Reset</button>
+        </div>
+      </form>
+
+      <div class="author">
+        <p>Made by Kaleem Bhatti &copy;</p>
+      </div>
+    </div>
+  </body>
+</html>
